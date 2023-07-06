@@ -1,0 +1,78 @@
+:root{
+    --cor-de-fundo:#EBECEE;
+    --branco:#FFFFFF;
+    --laranja:#EB9B00;
+    --azul-degrade:linear-gradient(97,54deg,#002F52 165,37%)
+    --fonte-principal:"Poppins"
+}
+body{
+    background-color:var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 700;
+}
+.cabeçalho_menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/menu.svg);
+    background-repeat:no-repeat ;
+    background-position: center;
+    display: inline-block;
+}
+.cabeçalho{
+    background-color: rgb(221, 215, 208);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position:relative;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container_imagem{
+    padding:1em ;
+    margin: 1em;
+    width: 5em;
+}
+.container_botao:checked ~ .lista-menu{
+    display:block;
+}
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 20vw;
+}
+.lista-menu_titulo,
+.lista-menu_item{
+    padding:1em ;
+    background-color:var(--branco) ;
+}
+.lista-menu_titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+.lita-menu_link{
+    background: var(--azul-degrade);
+    -webkit-background-clip:text ;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+.container_botao{
+    display:none ;
+}
+.banner{
+    background-color:midnightblue;
+    color:var(--branco);
+    text-align: center;
+    font-size: 30px;
+}
+.banner-titulo {
+    font-size:30px ;
+    font-weight: 700;
+}
+.banner-texto{
+    font-weight: 500;
+}
