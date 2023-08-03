@@ -64,7 +64,7 @@ body{
     display:none ;
 }
 .banner{
-    background-color:midnightblue;
+    background-color:#201068;
     color:var(--branco);
     text-align: center;
     font-size: 30px;
@@ -75,4 +75,30 @@ body{
 }
 .banner-texto{
     font-weight: 500;
+    font-size: 40px;
+    text-align: justify;
+    text-align:center ;
+}
+
+.banner-pesquisa{
+    background-color:transparent ;
+    border: 1px solid yellow;
+    color: #9e7c9e;
+border-radius: 24px;
+padding: 1em;
+width: 100%;
+text-align: center;
+background: url("./img/lupa.svg") no-repeat;
+background-position: 1em;
+font-size: 20px;
+}
+
+.carrossel_titulo {
+color: var(--laranja);
+background-color: var(--branco);
+text-align: center;
+text-transform: uppercase;
+font-size: 18px;
+font-weight: 700;
+padding: 1em 0 0.5em 0;
 }
