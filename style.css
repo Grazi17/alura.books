@@ -121,4 +121,7 @@ padding: 1em 0 0.5em 0;
 }
 .card{
     background: #bfb4c2;
+    border-radius: 10px;
+    width: 80%;
+    text-align:center ;
 }
