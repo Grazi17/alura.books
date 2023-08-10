@@ -66,8 +66,7 @@ placeholder="Qual será sua próxima leitura?">
 
 <section class="carrossel">
     <h2 class="carrossel_titulo"> Novos lançamentos</h2>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
+   
    
     <!-- Slider main container -->
 <div class="swiper">
@@ -86,19 +85,44 @@ placeholder="Qual será sua próxima leitura?">
       <div class="swiper-slide"><img src="./img/livro10.svg"></div>
       ...
     </div>
-
+ <!-- If we need pagination -->
+ <div class="swiper-pagination"></div>
 
     <!-- If we need scrollbar -->
     <div class="swiper-scrollbar"></div>
   </div>
+
+
+  <div class="card"> 
+    <div class="card-descricao">
+        <div class="descricao">
+            <h3 class="descricao-titulo"> Talvez você se interesse por... </h3>
+            <h2 claas=" descricao-texto"> Angular 11 e Firebase</h2>
+            <p class=" descricao-final"> Construindo uma aplicação integrada com a plataforma do Google</p>
+
+        </div>
+        <img class="descricao-imagem" src="./img/Angular.svg">
+    </div>
+
+    <div class="card-botoes">
+        <u1 class="botoes">
+            <li><img class="botoes-item" src="./img/Favoritos.svg "></li>
+            <li> <img  class="botoes-item" src="./img/Compras.svg"> </li>
+
+            <a href="https://www.educacao.pr.gov.br/iniciar/" class="botoes-ancora">Saiba mais</a>
+        </u1>
+    </div>
+
+  </div>
+
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     
 <script> 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper',{
   spaceBetween: 10,
-  slidesPerView: 6,
+  slidesPerView: 5,
   pagination: {
     el: '.swiper-pagination',
     type: 'bullets',
