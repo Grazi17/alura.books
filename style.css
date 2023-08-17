@@ -103,8 +103,10 @@ font-weight: 700;
 padding: 1em 0 0.5em 0;
 }
 
-.swiper-slide.img{
-    widht:70%;
+.swiper-slide img{
+    padding: 10px 55px;
+    width: 70%;
+    height: 400px;
 }
 
 .card-descricao{
@@ -122,6 +124,17 @@ padding: 1em 0 0.5em 0;
 .card{
     background: #bfb4c2;
     border-radius: 10px;
-    width: 80%;
     text-align:center ;
+    padding: 2em 10em;
+    margin:5em 15em;
+    
+}
+.titulo-mais-vendidos{
+    color: var(--laranja);
+background-color: var(--branco);
+text-align: center;
+text-transform: uppercase;
+font-size: 18px;
+font-weight: 700;
+padding: 1em 0 0.5em 0;
 }

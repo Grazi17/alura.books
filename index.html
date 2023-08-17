@@ -107,13 +107,40 @@ placeholder="Qual será sua próxima leitura?">
     <div class="card-botoes">
         <u1 class="botoes">
             <li><img class="botoes-item" src="./img/Favoritos.svg "></li>
-            <li> <img  class="botoes-item" src="./img/Compras.svg"> </li>
+            <li> <img  class="botoes-item" src="./img/Compras.svg"></li>
 
-            <a href="https://www.educacao.pr.gov.br/iniciar/" class="botoes-ancora">Saiba mais</a>
+            <a href="https://www.alura.com.br/apostilas" class="botoes-ancora">Saiba mais</a>
         </u1>
     </div>
 
   </div>
+
+</section>
+
+<section class="Mais vendidos">
+<h2 class="titulo-mais-vendidos"> MAIS VENDIDOS </h2>
+
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"> <img src="./img/hip1.jpeg"></div>
+      <div class="swiper-slide"><img src="./img/ext2.jpg"> </div>
+      <div class="swiper-slide"><img src="./img/anne3.jpeg"></div>
+      <div class="swiper-slide"><img src="./img/noi4.jpeg"></div>
+      <div class="swiper-slide"><img src="./img/alq5.jpg"></div>
+      <div class="swiper-slide"><img src="./img/dia6.jpg"></div>
+      
+      ...
+    </div>
+ <!-- If we need pagination -->
+ <div class="swiper-pagination"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
 
 </section>
 
@@ -122,7 +149,7 @@ placeholder="Qual será sua próxima leitura?">
 <script> 
 const swiper = new Swiper('.swiper',{
   spaceBetween: 10,
-  slidesPerView: 5,
+  slidesPerView: 3,
   pagination: {
     el: '.swiper-pagination',
     type: 'bullets',
