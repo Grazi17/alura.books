@@ -105,8 +105,8 @@ padding: 1em 0 0.5em 0;
 
 .swiper-slide img{
     padding: 10px 55px;
-    width: 70%;
-    height: 400px;
+    width: 60%;
+    height: 500px;
 }
 
 .card-descricao{
@@ -126,7 +126,7 @@ padding: 1em 0 0.5em 0;
     border-radius: 10px;
     text-align:center ;
     padding: 2em 10em;
-    margin:5em 15em;
+    margin:3em 15em;
     
 }
 .titulo-mais-vendidos{
@@ -137,4 +137,8 @@ text-transform: uppercase;
 font-size: 18px;
 font-weight: 700;
 padding: 1em 0 0.5em 0;
+}
+.botoes-item{
+    margin: 5px;
+
 }
