@@ -72,6 +72,7 @@ body{
 .banner-titulo {
     font-size:30px ;
     font-weight: 700;
+    
 }
 .banner-texto{
     font-weight: 500;
@@ -84,7 +85,7 @@ body{
     background-color:transparent ;
     border: 1px solid  rgb(229, 255, 0);
     color: #9e7c9e;
-border-radius: 24px;
+border-radius: 25px;
 padding: 1em;
 width: 100%;
 text-align: center;
@@ -98,7 +99,7 @@ color: var(--laranja);
 background-color: var(--branco);
 text-align: center;
 text-transform: uppercase;
-font-size: 18px;
+font-size: 20px;
 font-weight: 700;
 padding: 1em 0 0.5em 0;
 }
@@ -106,13 +107,19 @@ padding: 1em 0 0.5em 0;
 .swiper-slide img{
     padding: 10px 55px;
     width: 60%;
-    height: 500px;
+    height: 400px;
 }
 
 .card-descricao{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0,5em;
+    margin-bottom: 1em;
+    font-size: 20px;
+     
+}
+.descricao-titulo{
+    color: #eb7d00;
+    font-size:20px ;
 }
 .card-botoes{ 
     display: flex;
@@ -134,11 +141,31 @@ padding: 1em 0 0.5em 0;
 background-color: var(--branco);
 text-align: center;
 text-transform: uppercase;
-font-size: 18px;
+font-size: 20px;
 font-weight: 700;
 padding: 1em 0 0.5em 0;
 }
 .botoes-item{
     margin: 5px;
 
+}
+.botoes-ancora{
+    background-color: var(--laranja);
+    padding: 1em 1em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    margin: 5px;
+}
+.descricao{ 
+    font-size: 30px;
+}
+.topicos{
+    background: var(--azul-degrade);
+    text-align: center;
+}
+.Titulos-topicos{
+    color: #FFFFFF;
+    font-size: 500;
+    font-size: 20px;
 }
