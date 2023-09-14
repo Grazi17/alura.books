@@ -72,6 +72,7 @@ body{
 .banner-titulo {
     font-size:30px ;
     font-weight: 700;
+    color: #e47d39;
     
 }
 .banner-texto{
@@ -161,11 +162,33 @@ padding: 1em 0 0.5em 0;
     font-size: 30px;
 }
 .topicos{
-    background: var(--azul-degrade);
+    background:#171a49;
     text-align: center;
+    padding: 2em;
+    margin: 2em;
 }
 .Titulos-topicos{
-    color: #FFFFFF;
+    color: #d66a22;
     font-size: 500;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 2em;
+
+}
+.Topicos-lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.topicos-link{
+   color: rgb(15, 14, 15); 
+   padding:1em ;
+   background-color: #eb7d00;
+   font-size: 16px;
+   margin: 5px;
+   border-radius: 10px ;
+}
+.rodape{
+    background-color: #d1dbeb;
+    text-align: center;
 }
